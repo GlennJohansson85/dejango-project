@@ -1,12 +1,12 @@
- # dejango-project/settings.py
+# dejango-project/settings.py
 
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-DEBUG = True
+DEBUG = False  # Change this to False for production
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dejango-project.herokuapp.com']  # Replace with your Heroku app's domain
 
 INSTALLED_APPS = [
     'hello_world',
@@ -37,5 +37,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'dejango-project.wsgi.application'
 
 # ... other settings ...
+
 
 
