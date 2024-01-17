@@ -6,7 +6,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DEBUG = False  # Change this to False for production
 
-ALLOWED_HOSTS = ['dejango-project.herokuapp.com']  # Replace with your Heroku app's domain
+ALLOWED_HOSTS = ['dejango-project.herokuapp.com', 'localhost']
 
 INSTALLED_APPS = [
     'hello_world',
