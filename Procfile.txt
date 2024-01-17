@@ -1,2 +1,3 @@
-web: gunicorn dejango_project.wsgi:application --settings=dejango_project.settings
+web: gunicorn dejango-project.wsgi:application --settings=dejango-project.settings
+
 
