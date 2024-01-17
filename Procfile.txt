@@ -1,2 +1,3 @@
-web: gunicorn dejango_project.wsgi
+web: gunicorn hello_world.wsgi
+
 
